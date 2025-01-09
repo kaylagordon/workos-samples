@@ -1,19 +1,16 @@
 import { useState } from 'react'
 import './App.css'
-import SSO from './SSO'
-import Nav from './Nav'
-import {Routes, Route} from 'react-router-dom'
+import SSO from './pages/SSO'
+import Nav from './pages/Nav'
+import { Outlet } from 'react-router-dom'
 
 function App() {
   const [count, setCount] = useState(0)
 
   return (
     <main>
-      <Routes>
-        <Route path='/workos-sample-app' element={<Nav />}/>
-        <Route path='/' element={<p>/</p>}/>
-        <Route path='/workos-sample-app/sso' element={<SSO />} /> 
-      </Routes>
+      <p>HOME</p>
+      <Outlet />
     </main>
   )
 }

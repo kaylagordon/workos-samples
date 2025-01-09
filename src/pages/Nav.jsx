@@ -4,7 +4,7 @@ function Nav() {
 
   return (
     <>
-      <Link to='/SSO' className='nav-btn'>SSO</Link>
+      <Link to='/workos-sample-app/sso' className='nav-btn'>SSO</Link>
     </>
   )
 }
