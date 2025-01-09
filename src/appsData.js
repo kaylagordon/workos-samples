@@ -9,7 +9,7 @@ const appsData = [
     category: 'SSO', 
     language: 'TypeScript',
     codeToCopy: 'cd && cd example-apps/typescript-example-applications/typescript-sso-example && code . && nodemon index.ts',
-    url: 'http://localhost:8001'
+    url: 'http://localhost:8000'
   }
 ]
 
