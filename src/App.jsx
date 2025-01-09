@@ -11,7 +11,7 @@ function App() {
     <main>
       <Routes>
         <Route path='/workos-sample-app' element={<Nav />}/>
-        <Route path='/' element={<p>/</p>>}/>
+        <Route path='/' element={<p>/</p>}/>
         <Route path='/workos-sample-app/sso' element={<SSO />} /> 
       </Routes>
     </main>
