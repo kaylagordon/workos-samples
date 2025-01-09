@@ -1,8 +1,23 @@
-# React + Vite
+# WorkOS Sample Apps - Kayla (DSE)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Live Site
+- Deployed here: [https://kaylagordon.github.io/workos-samples/](https://kaylagordon.github.io/workos-samples/)
+- Updated with every `git push`
+- If you'd like to deploy your copy, follow [this video walkthrough](https://www.youtube.com/watch?v=uEEj2c3_ydg)
 
-Currently, two official plugins are available:
+## Local Set Up
+1. Fork and clone this repo
+2. `cd` into the directory
+3. `npm i`
+4. `npm run dev`
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Adding New Tiles
+Add new app data to `/src/appsData.js` in this format:
+```js
+  { 
+    category: 'SSO', 
+    language: 'TypeScript',
+    codeToCopy: '<CLI command to copy>',
+    url: '<port used by this app>'
+  }
+```
