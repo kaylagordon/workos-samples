@@ -6,7 +6,7 @@ function App() {
 
   const renderTiles = () => {
     return appsData.map(app => {
-      return <Tile name={app.name} codeToCopy={app.codeToCopy} url={app.url} key={Math.random()}/>
+      return <Tile appInfo={app} key={Math.random()}/>
     })
   }
 
