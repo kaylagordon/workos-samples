@@ -10,8 +10,8 @@ function App() {
   return (
     <main>
       <Routes>
-        <Route path='/' element={<Nav />}/>
-        <Route path='/sso' element={<SSO />} /> 
+        <Route path='/workos-sample-app' element={<Nav />}/>
+        <Route path='/workos-sample-app/sso' element={<SSO />} /> 
       </Routes>
     </main>
   )
