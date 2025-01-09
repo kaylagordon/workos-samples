@@ -25,14 +25,19 @@ a:hover {
 body {
   margin: 0;
   display: flex;
-  place-items: center;
   min-width: 320px;
   min-height: 100vh;
 }
 
+section {
+  display: flex;
+  place-items: center;
+  height: 75vh;
+  margin: 1em;
+}
+
 h1 {
-  font-size: 3.2em;
-  line-height: 1.1;
+  font-size: 2em;
 }
 
 button {
@@ -46,23 +51,47 @@ button {
   cursor: pointer;
   transition: border-color 0.25s;
 }
+
 button:hover {
   border-color: #646cff;
 }
+
 button:focus,
 button:focus-visible {
   outline: 4px auto -webkit-focus-ring-color;
 }
 
-@media (prefers-color-scheme: light) {
-  :root {
-    color: #213547;
-    background-color: #ffffff;
-  }
-  a:hover {
-    color: #747bff;
-  }
-  button {
-    background-color: #f9f9f9;
-  }
+#root {
+  width: 100%;
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
 }
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.nav-btn {
+  padding: 2em;
+  background-color: white;
+  border-radius: 25px;
+}
+
+.nav-btn:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+
+.nav-btn.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+

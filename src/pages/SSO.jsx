@@ -1,9 +1,9 @@
 function SSO() {
 
     return (
-      <>
+      <section>
         <p>SSO</p>
-      </>
+      </section>
     )
   }
   
