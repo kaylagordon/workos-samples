@@ -81,17 +81,17 @@ nav {
   align-items: center;
 }
 
-.nav-btn {
+.tile {
   padding: 2em;
   background-color: white;
   border-radius: 25px;
+  color: #646cff;
 }
 
-.nav-btn:hover {
+.tile:hover {
   filter: drop-shadow(0 0 2em #646cffaa);
 }
 
-.nav-btn.react:hover {
+.tile.react:hover {
   filter: drop-shadow(0 0 2em #61dafbaa);
 }
-
