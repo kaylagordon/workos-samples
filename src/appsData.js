@@ -14,7 +14,7 @@ const appsData = [
   { 
     category: 'Directory Sync', 
     language: 'Node.js',
-    codeToCopy: 'cd && cd example-apps/node-example-applications/node-directory-sync-example && code . && nodemon index.ts',
+    codeToCopy: 'cd && cd example-apps/node-example-applications/node-directory-sync-example && code . && nodemon index.js',
     url: 'http://localhost:8000'
   },
 ]
