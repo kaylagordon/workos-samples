@@ -12,7 +12,7 @@ const appsData = [
     url: 'http://localhost:8000'
   },
   { 
-    category: 'Directory Sync', 
+    category: 'Directory Sync & Webhooks', 
     language: 'Node.js',
     codeToCopy: 'cd && cd example-apps/node-example-applications/node-directory-sync-example && code . && nodemon index.js',
     url: 'http://localhost:8000'
