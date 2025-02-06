@@ -1,6 +1,6 @@
 const appsData = [
   { 
-    category: 'SSO', 
+    category: 'SSO + Events', 
     language: 'Node.js',
     codeToCopy: 'cd && cd example-apps/node-example-applications/node-sso-example && code . && nodemon index.js',
     url: 'http://localhost:8000'
