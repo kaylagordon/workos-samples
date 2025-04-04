@@ -11,6 +11,15 @@
 3. `npm i`
 4. `npm run dev`
 
+## Adding New Dashboard Info
+Add new dashboard data to `/src/dashbaordData.js` in this format:
+```js
+ { 
+    name: 'Sample Organization',
+    valueToCopy: 'org_01JBA994G94Z719PHEA4WMGXGR'
+  },
+```
+
 ## Adding New Tiles
 Add new app data to `/src/appsData.js` in this format:
 ```js

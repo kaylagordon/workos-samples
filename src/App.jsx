@@ -1,6 +1,7 @@
 import Tile from './Tile'
+import Profile from './Profile'
 import appsData from './appsData'
-
+import dashboardData from './dashboardData'
 
 function App() {
 
@@ -10,14 +11,23 @@ function App() {
     })
   }
 
+  const renderDashboardInfo = () => {
+    return dashboardData.map(item => {
+      return <Profile dashInfo={item}/>
+    })
+  }
+
   return (
     <main>
       <header>
       <h1>Kayla's WorkOS Samples</h1>
       </header>
-      <nav>
+      <section className='profile'>
+        {renderDashboardInfo()}
+      </section>
+      <section className='tiles'>
         {renderTiles()}
-      </nav>
+      </section>
     </main>
   )
 }

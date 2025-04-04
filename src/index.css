@@ -29,13 +29,6 @@ body {
   min-height: 100vh;
 }
 
-section {
-  display: flex;
-  place-items: center;
-  height: 75vh;
-  margin: 1em;
-}
-
 h1 {
   font-size: 2em;
 }
@@ -54,11 +47,8 @@ button {
 
 button:hover {
   border-color: #646cff;
-}
-
-button:focus,
-button:focus-visible {
-  outline: 4px auto -webkit-focus-ring-color;
+  filter: drop-shadow(0 0 2em #61dafbaa);
+  filter: drop-shadow(0 0 2em #646cffaa);
 }
 
 #root {
@@ -75,7 +65,7 @@ header {
   align-items: center;
 }
 
-nav {
+.tiles {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -90,10 +80,20 @@ nav {
   margin: 1em;
 }
 
-.tile:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
+.profile {
+  display: flex;
+  flex-direction: column;
 }
 
-.tile.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
+.profile-line-items {
+  margin-bottom: 10px;
+}
+
+label {
+  margin-right: 3px;
+}
+
+.profile-copy-button {
+  padding: 4px;
+  font-family: monospace;
 }
